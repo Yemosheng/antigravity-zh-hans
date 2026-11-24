@@ -1,0 +1,106 @@
+[
+  [
+    "^Welcome back, (.+)\\. Where should we pick up\\?$",
+    "欢迎回来，$1。我们从哪里继续？"
+  ],
+  [
+    "^Welcome back\\. Where should we pick up\\?$",
+    "欢迎回来。我们从哪里继续？"
+  ],
+  [
+    "^Good to see you, (.+)\\. What's next\\?$",
+    "很高兴见到你，$1。接下来做什么？"
+  ],
+  [
+    "^Good to see you\\. What's next\\?$",
+    "很高兴见到你。接下来做什么？"
+  ],
+  [
+    "^Hey (.+), what should we build today\\?$",
+    "嘿，$1，今天想构建什么？"
+  ],
+  [
+    "^Hey there, what should we build today\\?$",
+    "嘿，今天想构建什么？"
+  ],
+  [
+    "^Select model, current: (.+)$",
+    "选择模型，当前：$1"
+  ],
+  [
+    "^Select project, current: (.+)$",
+    "选择项目，当前：$1"
+  ],
+  [
+    "^Select agent, current: (.+)$",
+    "选择智能体，当前：$1"
+  ],
+  [
+    "^Select (.+), current: (.+)$",
+    "选择$1，当前：$2"
+  ],
+  [
+    "^Shortcut (.+) for (.+)$",
+    "快捷键 $1：$2"
+  ],
+  [
+    "^(\\d+) agents? running$",
+    "$1 个智能体正在运行"
+  ],
+  [
+    "^(\\d+) agents?$",
+    "$1 个智能体"
+  ],
+  [
+    "^(\\d+) files?$",
+    "$1 个文件"
+  ],
+  [
+    "^(\\d+) results?$",
+    "$1 条结果"
+  ],
+  [
+    "^(\\d+) more$",
+    "另外 $1 项"
+  ],
+  [
+    "^Show (\\d+) more$",
+    "显示另外 $1 项"
+  ],
+  [
+    "^(\\d+) of (\\d+)$",
+    "$1 / $2"
+  ],
+  [
+    "^(\\d+)s ago$",
+    "$1 秒前"
+  ],
+  [
+    "^(\\d+)m ago$",
+    "$1 分钟前"
+  ],
+  [
+    "^(\\d+)h ago$",
+    "$1 小时前"
+  ],
+  [
+    "^(\\d+)d ago$",
+    "$1 天前"
+  ],
+  [
+    "^Failed to start conversation: (.+)$",
+    "无法开始对话："
+  ],
+  [
+    "^Failed to (.+)$",
+    "操作失败："
+  ],
+  [
+    "^Version (.+)$",
+    "版本 "
+  ],
+  [
+    "^(.+) - Outside of Project - Antigravity$",
+    " - 项目之外 - Antigravity"
+  ]
+]

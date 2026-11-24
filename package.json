@@ -1,0 +1,23 @@
+{
+  "name": "antigravity-zh-hans",
+  "version": "1.0.0",
+  "description": "Unofficial Simplified Chinese runtime localization for Antigravity",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install:zh": "node src/install.js --force --launch",
+    "uninstall:zh": "node src/uninstall.js --force",
+    "sync": "node src/sync.js",
+    "asar:list": "node tools/asar-tool.js list"
+  },
+  "keywords": [
+    "antigravity",
+    "chinese",
+    "localization",
+    "electron",
+    "asar"
+  ]
+}

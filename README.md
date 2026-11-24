@@ -1,5 +1,7 @@
 # Antigravity 简体中文汉化
 
+[English](README.en.md) · **简体中文**
+
 给 [Antigravity](https://antigravity.google)（Google 的 AI 代码编辑器，Electron + Go）做的**非官方简体中文界面补丁**。
 
 Antigravity 2.34.0 的界面由 `language_server.exe`（Go）通过本地 HTTPS 提供，官方没有语言包、也不读 `?hl=` / `Accept-Language`。本项目不改 `language_server.exe`，只给 Electron 主进程的 `app.asar` 打一个几 KB 的小补丁：启动时把翻译脚本注入每个页面，用「词典 + 正则模板」把英文文案实时替换成中文，React 重渲染后会自动复译。

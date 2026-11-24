@@ -1,5 +1,7 @@
 # Antigravity Simplified Chinese Localization
 
+**English** · [简体中文](README.md)
+
 An **unofficial** Chinese (Simplified) UI patch for [Antigravity](https://antigravity.google), Google's AI code editor (Electron + Go).
 
 Antigravity 2.34.0 renders its UI from a local HTTPS server run by `language_server.exe` (Go). There is no official language pack, and the app ignores `?hl=` / `Accept-Language`. Instead of touching the Go binary, this project patches the Electron main process inside `app.asar` (a few KB): a loader is injected after `require("electron")`, which executes a translation script in every page. A dictionary plus regular-expression templates replace English strings with Chinese, and a `MutationObserver` re-translates after React re-renders.

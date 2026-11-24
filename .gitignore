@@ -1,0 +1,17 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# build / temp artifacts
+work/
+tmp/
+*.zh.asar
+*.zh-new
+*.zh-old
+*.zh-restore
+app.asar.zh-backup
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
